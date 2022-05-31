@@ -12,7 +12,7 @@ urlpatterns=[
     re_path(r'^employee/([0-9]+)$',views.employeeApi),
     re_path(r'^employee/savefile',views.SaveFile),
     
-    re_path(r'^recruit$',views.recruitApi),
-    re_path(r'^recruit/([0-9]+)$',views.recruitApi),
-    re_path(r'^recruit/savefile',views.SaveFile)
+    re_path(r'^recruiter$',views.recruitApi),
+    re_path(r'^recruiter/([0-9]+)$',views.recruitApi),
+    re_path(r'^recruiter/savefile',views.SaveFile)
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
