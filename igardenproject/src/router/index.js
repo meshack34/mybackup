@@ -3,7 +3,14 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import department from "../components/department.vue";
 import employee from "../components/employee.vue";
+
+
+import recruit from "../components/recruit.vue";
+import apply from "../components/apply.vue";
 Vue.use(VueRouter)
+
+
+
 
 const routes = [
   {
@@ -14,12 +21,22 @@ const routes = [
   {
     name: "employee",
     component: employee,
-    path: "/s",
+    path: "/employee",
   },
   {
     name: "department",
     component: department,
     path: "/department",
+  },
+  {
+    name: "apply",
+    component: apply,
+    path: "/apply",
+  },
+  {
+    name: "recruit",
+    component: recruit,
+    path: "/recruit",
   },
   {
     path: '/about',

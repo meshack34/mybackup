@@ -15,6 +15,10 @@
    
 
 <div @click="scroll('project')" class="menu-item"><a href="#">Outsourcing</a></div>
+ <div class="menu-item">
+                <router-link class="btn btn-light btn-outline-primary"
+                to="/recruit">recruit</router-link>
+            </div>
 <div class="menu-item"><a href="#">IT Services</a></div>
 <Dropdown title="Campus" :items="services"/>
 <div class="menu-item"><a href="#">Coworking</a></div>
