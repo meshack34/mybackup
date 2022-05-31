@@ -177,7 +177,7 @@ export default {
         NumberofDevelopers:"",
         DateOfApplication:"",
         FileName:"anonymous.png",
-        FilesPath:"http://127.0.0.1:8000/Files/"
+        FilesPath:"http://127.0.0.1:8000/filess/"
 
     }
 },
